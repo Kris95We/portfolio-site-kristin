@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="shortcut icon" href="img/favicon.ico.white.png">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
@@ -14,13 +14,12 @@
     
 </head>
 <body>
-
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <header> 
 
      <div class="container">
-
-        <img src="img/logo/logoblack.svg" alt="Logo of Kristin Wedig">
+        
+        <img src="img/logo/logoblack.svg" class="logo" alt="Logo of Kristin Wedig">
         <nav>
          <ul>
           <li><a href="about.html">about me</a></li>
@@ -36,82 +35,98 @@
     <main>
 
      <section>
+     <div id="hero">
       <div class="container">
          <h1>Hi, my name is Kris, <span> I am a UX/UI Designer based in Germany!</span></h1>
           <p>
             I am here to beautify things. Adding a little bit of sparkle and share that with the world!
          </p>
       </div>
+    </div>
      </section>
 
      <section>
+     <div id="heroh2">
       <div class="container"> 
 
         <h2>My Work</h2>
-
-        <div class="row">
+    </div>
+    
+        <div class=".row">
          <div class="column">  
-          <img src="img/barkingbuddies/barkingbuddies.jpg" alt="barkingbuddies">
+            <h3>Barking Buddies</h3>
+          <img src="img/barkingbuddies/barkingbuddies.jpg" class="cover-img" alt="barkingbuddies">
         </div>
 
         <div class="column">
-            <h3>Barking Buddies</h3>
             <p>
                 Barking Buddies is a web app, designed for Android and iOS, that helps users matching their dog’s characteristics with a possible playdate, which supports getting regular healthy encounters with other dogs to socialize.
             </p>
-            <a href="barkingbuddies.html">View Project Details</a> 
+            <a href="barkingbuddies.html"> <button class="primary-button">View Project Details</button></a>
+               
         </div>
         </div>
+      </div>
      
-        <div class="row">
+      <div id="hero">
+        <div class=".row">
             <div class="column">
-                <img src="img/skandisoft/skandisoft.jpg" alt="skandisoft">
+                <h3>SkandiSoft</h3>
+                <img src="img/skandisoft/skandisoft.jpg" class="cover-img" alt="skandisoft">
             </div>
              <div class="column">
-                <h3>SkandiSoft</h3>
                 <p>
                     SkandiSoft is an online fashion store, offering modern and comfortable cahmsere clothing for men and women. Designed to find high quality styles with an easy and accessible shopping experience and navigation.
                 </p>
-                <a href="skandisoft.html">View Project Details</a> 
+                <a href="skandisoft.html"><button class="primary-button">View Project Details</button></a>
              </div>
         </div>
-
-        <div class="row">
+       </div>
+      
+       <div id="hero">
+        <div class=".row">
             <div class="column">
-                <img src="img/yummy/yummy.jpg" alt="yummy">
+                <h3>Yummy</h3>
+                <img src="img/yummy/yummy.jpg" class="cover-img" alt="yummy">
             </div>
              <div class="column">
-                <h3>Yummy</h3>
                 <p>
                     YUMMY is a student portfolio web app design that suggests recipes based on the customers’ calorie needs and budget. The app and its design aim to attract confident users who value conscious nutrition within every price range. 
                 </p>
-                <a href="yummy.html">View Project Details</a> 
+                <a href="yummy.html"><button class="primary-button">View Project Details</button></a>
              </div>
         </div>
+       </div>
 
       </div>
+
      </section>
-        
+
     </main>
 
 
     <footer id="contact"> 
 
         <div class="container">
-
+       <div id="contacth2">
          <h2>Interested? Let's get in touch!</h2>
+        </div>
+        <div id="contactp">
          <p>
-         Contact me if you have any questions, input or inquiries. Either call <a href="tel:015227784150">+49152 27784150</a> or send an Email.
+         Contact me if you have any questions, input or inquiries. Either call or send an Email.
          </p>
+        </div>
          <div>
-            <a href="mailto:kristinwedig1@gmail.com">Email me</a>
+            <a href="mailto:kristinwedig1@gmail.com" class="contact-button">Email me</a>
+            <a href="tel:015227784150" class="contact-button">+49152 27784150</a>
          </div>
          
+         <div id="social:hover">
          <div>
             <ul>
        
          <li> <a href="https://www.linkedin.com/in/kristin-wedig/" target="_blank">linkedin</a>
-            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="200px" height="200px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" fill="#0F0F0F"/>
                 <path d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z" fill="#0F0F0F"/>
                 <path d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z" fill="#0F0F0F"/>
@@ -121,8 +136,8 @@
          </li>
          
           <li> <a href="https://www.xing.com/profile/Kristin_Wedig2/web_profiles?expandNeffi=true" target="_blank">Xing</a>
-                 <svg fill="#000000"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="800px"
-	              height="800px" viewBox="0 0 512 512" xml:space="preserve">
+                 <svg fill="#000000"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="200px"
+	              height="200px" viewBox="0 0 512 512" xml:space="preserve">
 
                 <g id="7935ec95c421cee6d86eb22ecd135960">
                   <path style="display: inline; fill-rule: evenodd; clip-rule: evenodd;" d="M309.215,304.749
@@ -141,8 +156,8 @@
           </li>
          
          <li> <a href="https://www.behance.net/kristinwedig" target="_blank">Behance</a>
-              <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	             viewBox="0 0 512 512" xml:space="preserve">
+              <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px"
+              height="200px" viewBox="0 0 512 512" xml:space="preserve">
                 <g>
 	             <path d="M472,0H40C17.9,0,0,17.9,0,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V40C512,17.9,494.1,0,472,0z M482,472
 	            	c0,5.5-4.5,10-10,10H40c-5.5,0-10-4.5-10-10V40c0-5.5,4.5-10,10-10h432c5.5,0,10,4.5,10,10V472z"/>
@@ -159,8 +174,9 @@
 	              	h-38.5v-42.2h39c6.8,0.1,12,1,15.8,2.7c6.8,3.1,10.1,8.8,10.1,17C224.4,292.8,221,299.3,214,302.8z"/>
                </g>
               </svg>
-         </li>
+           </li>
              </ul>
+            </div>
          </div>
         <div>        
              <p>Copyright Kristin Wedig 2024</p>
