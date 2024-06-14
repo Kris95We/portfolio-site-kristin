@@ -11,12 +11,12 @@ Highlight Color02 (Blue): #5B78DE
   }
 
 body {
-    background-color: white;
+    background-color:hsl(0, 0, 100);
     font-family: "Libre Franklin", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
-    color: black;
+    color: hsl(0, 0, 0);
 }
 
 img{
@@ -56,85 +56,81 @@ p {
 /*links*/
 
 a {
-    color: #5B78DE;
+    color: hsl(227, 66, 61);
     text-decoration: none; 
 }
 
 a:visited { 
-    color: #6C24B4;
+    color: hsl(270, 67, 42);
 }
 
   
 a:hover,
 a:focus {
-    color: #9C5BDE;
+    color: hsl(270, 67, 42);
     text-decoration: underline; 
 }
 
 a:active {
-    color:#5B78DE;
+    color: hsl(227, 66, 61);
 }
   
 
 /*button*/
 
-.primary-button {
+.button,
+  .button:visited {
     display: inline-block;
-    background-color: #9c5bde;
-    color: #ffffff;
-    font-size: 16px;
+    background-color: hsl(270, 66%, 61%);
+    color: hsl(0, 0%, 100%);
     font-weight: 400;
-    padding: 10px 20px;
-    border: 1px #6c24b4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 0;
+    border: 1px solid hsl(270, 67%, 42%);
+    border-radius: 5px;
+   
 }
 
 
-.secondary-button {
-    display: inline-block;
-    background-color: white;
-    color: #9C5BDE;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 20px;
-    border: 1px #9C5BDE;
+.button.secondary {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(270, 66%, 61%);
+    border: 1px solid hsl(270, 66%, 61%);
 }
 
-button:visited {
-    background-color: #6C24B4;
-   }
    
-   button:hover{
-       background-color: #BF92EB;
+   .button.hover {
+       background-color: hsl(270, 69%, 75%);
        
    }
    
-   button:focus{
-       background-color: #BF92EB;
+   .button.focus {
+       background-color: hsl(270, 69%, 75%);
        
    }
    
-   button:active {
-       background-color: #5B78DE;
+   .button.active {
+       background-color: hsl(227, 66%, 61%);
    }
 
-.contact-button {
+  .button.contact {
     background-color: transparent;
-    color: #5B78DE;
+    color: hsl(227, 66%, 61%);
     text-transform: uppercase;
-    padding:10px 20px;
-    border: 2px solid #5B78DE;
+    border: 2px solid hsl(227, 66%, 61%);
     border-radius: 3px;
-}
+  }
 
-.contact-button:hover {
-    background-color: #B7C3F0;
-    color: #5B78DE;
+  .button.contact:hover {
+    background-color: hsl(227, 65%, 83%);
+    color: hsl(227, 66%, 61%);
     text-transform: uppercase;
-    padding:10px 20px;
-    border: 2px solid #5B78DE;
+    border: 2px solid hsl(227, 66%, 61%);
     border-radius: 3px;
-    ;
-}
+  }
 
 /*back to top button*/
 #myBtn {
@@ -145,8 +141,8 @@ button:visited {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #5B78DE;
-    color: white;
+    background-color: hsl(227, 66%, 61%);
+    color: hsl(0, 0%, 100%);
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
@@ -158,148 +154,94 @@ button:visited {
 
 header {
     position: fixed;
+    text-align: center;
     width: 100%;
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
     padding: 10px 0 4px;
-    box-shadow: 0px 14px 30px 1px rgba(0, 0, 0, 0.02);
-  }
-  
-  
+    border-bottom: 3px solid hsl(270, 67%, 42%);
+}
   /*layout styling*/
 
 .container {
     padding: 0 15px;
   }
 
-.logo {
-    max-width: 150px;
+  .logo {
+    max-width: 250px;
   }
 
 main {
     padding-top: 150px;
 }
 
+.row {
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
 
-  /*index*/
+#work .row {
+   padding-bottom: 25px; border-bottom: 1px solid hsl(270, 67%, 42%);; 
+}
 
-#hero {
-    text-align: center;
+ #hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+}
+
+
+.center {
+  text-align: center;
+ }
+
+ /*header*/
+
+ nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
   }
   
-  #heroh2 {
-    text-align: center;
-    font-weight: 400;
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: hsl(270, 67%, 42%);
   }
   
+  nav > ul > li > a:visited {
+    color: hsl(270, 67%, 42%);
+  }
+  
+  nav > ul > li > a:hover,
+  nav > ul > li > a:focus {
+    color: hsl(227, 66, 61);
+  }
+  
+  nav > ul > li > a:active {
+    color: hsl(227, 66, 61);
+  }
+  
+
   #hero {
-    padding: 30px 0;
+    padding: 20px 0;
     display: inline-block;
     width: 100%;
+    text-align: center;
+    margin-top: 50px;
   }
-  
-  .row {
-    margin: 50px 0;
+
+  .social-icon {
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+
+  .social-icon a {
     display: inline-block;
-    width: 100%;
-  }
-  
-  #contact {
+    width: 30px;
     text-align: center;
-  }
-  
-  #contacth2 {
-    font-weight: 700;
-    margin-bottom: 70px;
-  }
-  
-  #contactp {
-    padding: 25px;
-    font-size: 0.75em;
-  }
-  
-  /*social media icons*/
-  .social {
-    padding: 20px;
-  }
-  
-  .social:hover {
-    opacity: 0.5;
-  }
-
-  /*project*/
-#workcontenth1 {
-    text-align: center;
-  }
-  
-  #workcontenth2 {
-    text-align: center;
-  }
-
-  #workcontenth3 {
-    text-align: center;
-    font-weight: 700;
-  }
-  
-  #workcontenth4 {
-    font-weight: 500;
-  }
-
-  /*work images*/
-.cover-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    text-align: center;
-    border-radius: 5px;
-  }
-  
-  .img-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    max-width: 50%;
-    text-align: center;
-    border-radius: 10px;
-  }
-  
-  .img-container-large {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    max-width: 70%;
-    text-align: center;
-    border-radius: 10px;
-  }
-  
-  .img-container-mid {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    max-width: 40%;
-    text-align: center;
-    border-radius: 10px;
-  }
-  
-  .img-container-small {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    max-width: 30%;
-    text-align: center;
-    border-radius: 5px;
-  }
-  
-  .img-container-xsmall {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    max-width: 20%;
-    text-align: center;
-    border-radius: 5px;
+    margin: 0px 5px;
   }
