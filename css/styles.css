@@ -159,6 +159,7 @@ header {
     background-color: hsl(0, 0%, 100%);
     padding: 10px 0 4px;
     border-bottom: 3px solid hsl(270, 67%, 42%);
+    z-index:9999;
 }
   /*layout styling*/
 
@@ -171,7 +172,7 @@ header {
   }
 
 main {
-    padding-top: 150px;
+    padding-top: 106.57px;
 }
 
 .row {
@@ -193,20 +194,22 @@ main {
  }
 
  /*header*/
+ nav > ul {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+ }
 
  nav > ul {
     list-style-type: none;
     padding: 0;
   }
 
-  nav > ul > li {
-    display: inline-block;
-  }
-  
   nav > ul > li > a {
-    padding: 0 15px;
+    
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: medium;
     color: hsl(270, 67%, 42%);
   }
   
@@ -229,19 +232,23 @@ main {
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin-top: 50px;
   }
 
-  .social-icon {
-    display: block;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 10px;
-  }
+  .social {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 1em;
+    }
 
-  .social-icon a {
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    margin: 0px 5px;
-  }
+ .social a {
+   align-items: center;
+   }
+
+ .social svg {
+  max-width: 32px;
+  height: auto;
+   }
+
+  
+  
