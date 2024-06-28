@@ -1,390 +1,479 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="shortcut icon" href="img/favicon.ico.white.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    >
+    <title>Kristin Wedig Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kristin Wedig Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="shortcut icon" href="img/favicon.ico.white.png">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/8336ab85bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <script src="https://kit.fontawesome.com/8336ab85bb.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-
-  <header id="navigation">
-
-    <div class="container">
-      <div class="navtoggle" id="myNavtoggle">
-        <a href="index.html"><img src="img/logo/logoblack.svg" class="logo" alt="Logo of Kristin Wedig"></a>
-        <nav>
-          <ul class="navigation">
-            <li><a href="about.html">about me</a></li>
-            <li><a href="index.html">projects</a></li>
-            <li><a href="#contact" onclick="menuToggle()">contact</a></li>
-            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-
-          </ul>
-        </nav>
+  <body>
+    <header id="navigation">
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="index.html"
+            ><img
+              src="img/logo/logoblack.svg"
+              class="logo"
+              alt="Logo of Kristin Wedig"
+          ></a>
+          <nav>
+            <ul class="navigation">
+              <li><a href="about.html">about me</a></li>
+              <li><a href="index.html">projects</a></li>
+              <li><a href="#contact" onclick="menuToggle()">contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </div>
+    </header>
 
-
-  </header>
-
-
-  <main>
-
-    <div id="projects">
-      <section>
-        <div class="container">
-          <div id="hero">
-            <h1>Student Portfolio Project "SkandiSoft"</h1>
+    <main>
+      <div id="projects">
+        <section>
+          <div class="container">
+            <div id="hero">
+              <h1>Student Portfolio Project "SkandiSoft"</h1>
+            </div>
+            <h2>SkandiSoft</h2>
+            <div class="center">
+              <p>Cashmere Products for your Style.</p>
+            </div>
+            <img
+              src="img/skandisoft/skandisoftmockups.svg"
+              alt="skandisoftmockup"
+            >
           </div>
-          <h2>SkandiSoft</h2>
-          <div class="center">
-            <p>Cashmere Products for your Style.</p>
+        </section>
+
+        <section>
+          <div class="container">
+            <h2>Problem Statement</h2>
+            <p>
+              Shopping for specific products in stores can be difficult and
+              nerve-wracking. Living in a smaller city or having a special item
+              in mind are only some obstacles that people have when shopping in
+              stores. Cashmere products, with a great sense of style are often
+              difficult to find, unless stores that are tailored to cashmere
+              carry them.
+            </p>
+            <h2>Possible Solution</h2>
+            <p>
+              The website functions as an online fashion store designed to find
+              high quality, modern and young cashmere styles for everyone, with
+              our easy and accessible shopping experience and navigation,
+              initially to order in europe.
+            </p>
           </div>
-          <img src="img/skandisoft/skandisoftmockups.svg" alt="skandisoftmockup">
-        </div>
-      </section>
+        </section>
 
-      <section>
-        <div class="container">
-          <h2>Problem Statement</h2>
-          <p>Shopping for specific products in stores can be difficult and nerve-wracking. Living in a smaller city or
-            having a special item in mind are only some obstacles that people have when shopping in stores. Cashmere
-            products, with a great sense of style are often difficult to find, unless stores that are tailored to
-            cashmere carry them.
-          </p>
-          <h2>Possible Solution</h2>
-          <p>The website functions as an online fashion store designed to find high quality, modern and young cashmere
-            styles for everyone, with our easy and accessible shopping experience and navigation, initially to order in
-            europe.
-          </p>
-        </div>
-      </section>
+        <section>
+          <div class="container">
+            <div class="col-md-6 col-lg-6">
+              <h2>Target Audience</h2>
+              <ul>
+                <li>
+                  Customer looking for high quality and modern casmere items
+                </li>
+                <li>
+                  Customer, who’s main option it to purchase items via the
+                  internet
+                </li>
+                <li>
+                  Customer who wish for an easy navigation and simple and
+                  concise online store
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <img src="img/skandisoft/woman.jpg" alt="woman">
+            </div>
+          </div>
+        </section>
 
-
-      <section>
-        <div class="container">
-
-          <div class="col-md-6 col-lg-6">
-            <h2>Target Audience</h2>
-            <ul>
-              <li>Customer looking for high quality and modern casmere items</li>
-              <li>Customer, who’s main option it to purchase items via the internet</li>
-              <li>Customer who wish for an easy navigation and simple and concise online store</li>
+        <section>
+          <div class="container">
+            <h2>The Process</h2>
+            <ul class="column">
+              <li>User Research</li>
+              <li>User Persona</li>
+              <li>User Flow</li>
+              <li>Wireframing</li>
+              <li>Style Guide</li>
+              <li>Prototyping</li>
+            </ul>
+            <h2>My Role</h2>
+            <ul class="column">
+              <li>Brand Guidelines</li>
+              <li>Problem Solution</li>
+              <li>Wireframing</li>
+              <li>User Flow</li>
+              <li>User Prototyping</li>
+              <li>User Research</li>
+              <li>Usability Testing</li>
+              <li>UI Design</li>
+              <li>UX Writing</li>
             </ul>
           </div>
-          <div class="col-md-6 col-lg-6">
-            <img src="img/skandisoft/woman.jpg" alt="woman">
-          </div>
+        </section>
 
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>The Process</h2>
-          <ul class="column">
-            <li>User Research</li>
-            <li>User Persona</li>
-            <li>User Flow</li>
-            <li>Wireframing</li>
-            <li>Style Guide</li>
-            <li>Prototyping</li>
-          </ul>
-          <h2>My Role</h2>
-          <ul class="column">
-            <li>Brand Guidelines</li>
-            <li>Problem Solution</li>
-            <li>Wireframing</li>
-            <li>User Flow</li>
-            <li>User Prototyping</li>
-            <li>User Research</li>
-            <li>Usability Testing</li>
-            <li>UI Design</li>
-            <li>UX Writing</li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>User Research</h2>
-          <p>I chose to interview acquaintances in regards to whether they struggle buying specific clothing items in
-            physical stores. Further I asked them about if they look for high quality products and if they rather buy
-            online or in stores.
-          </p>
-          <h3>Interview Questions</h3>
-          <ul>
-            <li>Do you rather buy clothes online or in stores?</li>
-            <li>Do you value buying high quality items. Explain further.</li>
-            <li>Do you struggle with finding specific high quality items in stores? Explain further.</li>
-            <li>Describe how the interface of an easy to navigate online store should look like.</li>
-          </ul>
-          <h3>Key Insights</h3>
-          <ul>
-            <li>In general, the interviewees like to shop in physical stores and online equally, but every person came
-              across the struggle not finding what they are looking for in stores, hence they are buying items via the
-              internet.</li>
-            <li>I have found, that people within the age of 30+ value good quality items more. </li>
-            <li>Interviewees described, that there has often been the case of them looking for fashionable but high
-              quality items in stores and then having to order them over the internet.</li>
-            <li>An easy to navigate online store is characterized by the fact, that it is simple in its design and no
-              overflow of information. Nothing unneccessary that disturbs a calm shopping experience. </li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>User Personas</h2>
-          <img src="img/skandisoft/userpersona01.jpg" alt="userpersona01">
-          <img src="img/skandisoft/userpersona02.jpg" alt="uswerpersona02">
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>User Flow Diagram</h2>
-          <img src="img/skandisoft/skandisoft-userflow.png" alt="userflow">
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-
-          <h2>Low Fidelity Wireframes</h2>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi08.png" alt="welcome">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi08.png" alt="home">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi01.png" alt="menu">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi09.png" alt="categories">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi03.png" alt="wishlist">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi02.png" alt="productpage">
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi04.png" alt="cart">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi06.png" alt="paymentoption">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/lowfi05.png" alt="checkout">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>Grey Scale High-Fidelity Wireframes</h2>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/welcome.png" alt="welcome">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/home.png" alt="home">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/menu.png" alt="menu">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/categories.png" alt="categories">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/wishlist.png" alt="wishlist">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/productpage.png" alt="productpage">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/cart.png" alt="cart">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/paymentoption.png" alt="paymentoption">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/checkout.png" alt="checkout">
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>Visual Design</h2>
-          <h3>Color Palette</h3>
-          <img src="img/skandisoft/colorpalette.png" alt="colorpalette">
-          <h3>Logo</h3>
-          <img src="img/skandisoft/logo.jpg" alt="logo">
-          <p>SkandiSoft’s logo is integral to the brand and should therefore only be used in the ways stated in this
-            document. 
-            The primary Logo should be used in all instances unless stated otherwise.
-            The secondary logo is for use when vertical space is limited. 
-            The marque should only been use sparingly. As the brand is not yet universally recognised the name
-            SkandiSoft should accompany the marque in some form.
-          </p>
-          <h3>Typography</h3>
-          <img src="img/skandisoft/typography.png" alt="typography">
-          <p>Nordica Plus is a stylish and modern font that can help convey a sense of sophistication and elegance,
-            which are associated with our brand. Its clean lines and sleek design make it easy to read and visually
-            appealing, which enhances the overall aesthetic of the online shop. Additionally, Nordica Plus is versatile
-            and can be used for various purposes such as headlines, product descriptions, and branding, making it a
-            practical choice for a fashion online shop.
-          </p>
-
-          <div class="photography">
-            <div class="col-md-6 col-lg-6">
-              <h3>Photography</h3>
-              <p>For our nordic cashmere clothing online store, the photography is characterized by clean, minimalist
-                aesthetics that reflect the simplicity and elegance of the scandinavian design. The use of natural
-                light, neutral backgrounds, and high-quality images helps to showcase the luxurious texture and softness
-                of cashmere garments.
-              </p>
-            </div>
-            <div class="col-md-6 col-lg-6">
-              <img src="img/skandisoft/imagewoman.png" alt="imagewoman">
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section>
-        <div class="container">
-          <h2>Final Lool and Mockups</h2>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final01.png" alt="finalwelcome">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final06.png" alt="finalhome">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final05.png" alt="finalmenu">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final03.png" alt="finalcategories">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final02.png" alt="finalwishlist">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final08.png" alt="finalproductpage">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final04.png" alt="finalcart">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final09.png" alt="finalpaymentoption">
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <img src="img/skandisoft/final07.png" alt="finalcheckout">
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>Final Desktop Look</h2>
-          <img src="img/skandisoft/finaldesktop.png" alt="finaldesktop">
-        </div>
-      </section>
-    </div>
-  </main>
-
-
-  <footer id="contact">
-    <div class="container">
-      <div class="center">
-        <h2>Interested? Let's get in touch!</h2>
-
-
-        <div>
-          <p>
-            Contact me if you have any questions, input or inquiries. Either call or send an Email.
-          </p>
-        </div>
-        <div>
-          <a href="mailto:kristinwedig1@gmail.com" class="button contact">Email me</a>
-          <a href="tel:015227784150" class="button contact">+49152 27784150</a>
-        </div>
-
-        <div>
-          <div>
-            <ul class="social">
-              <li> <a href="https://www.linkedin.com/in/kristin-wedig/" class="social" target="_blank">
-                  <svg width="200px" height="200px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
-                      fill="#0F0F0F" />
-                    <path
-                      d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
-                      fill="#0F0F0F" />
-                    <path
-                      d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
-                      fill="#0F0F0F" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
-                      fill="#0F0F0F" />
-                  </svg>
-                </a>
+        <section>
+          <div class="container">
+            <h2>User Research</h2>
+            <p>
+              I chose to interview acquaintances in regards to whether they
+              struggle buying specific clothing items in physical stores.
+              Further I asked them about if they look for high quality products
+              and if they rather buy online or in stores.
+            </p>
+            <h3>Interview Questions</h3>
+            <ul>
+              <li>Do you rather buy clothes online or in stores?</li>
+              <li>Do you value buying high quality items. Explain further.</li>
+              <li>
+                Do you struggle with finding specific high quality items in
+                stores? Explain further.
               </li>
+              <li>
+                Describe how the interface of an easy to navigate online store
+                should look like.
+              </li>
+            </ul>
+            <h3>Key Insights</h3>
+            <ul>
+              <li>
+                In general, the interviewees like to shop in physical stores and
+                online equally, but every person came across the struggle not
+                finding what they are looking for in stores, hence they are
+                buying items via the internet.
+              </li>
+              <li>
+                I have found, that people within the age of 30+ value good
+                quality items more.
+              </li>
+              <li>
+                Interviewees described, that there has often been the case of
+                them looking for fashionable but high quality items in stores
+                and then having to order them over the internet.
+              </li>
+              <li>
+                An easy to navigate online store is characterized by the fact,
+                that it is simple in its design and no overflow of information.
+                Nothing unneccessary that disturbs a calm shopping experience.
+              </li>
+            </ul>
+          </div>
+        </section>
 
+        <section>
+          <div class="container">
+            <h2>User Personas</h2>
+            <img src="img/skandisoft/userpersona01.jpg" alt="userpersona01">
+            <img src="img/skandisoft/userpersona02.jpg" alt="uswerpersona02">
+          </div>
+        </section>
 
-              <li> <a href="https://www.xing.com/profile/Kristin_Wedig2/web_profiles?expandNeffi=true" target="_blank">
-                  <svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px" viewBox="0 0 512 512"
-                    xml:space="preserve">
-                    <g id="7935ec95c421cee6d86eb22ecd135960">
-                      <path style="display: inline; fill-rule: evenodd; clip-rule: evenodd;"
-                        d="M309.215,304.749
+        <section>
+          <div class="container">
+            <h2>User Flow Diagram</h2>
+            <img src="img/skandisoft/skandisoft-userflow.png" alt="userflow">
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <h2>Low Fidelity Wireframes</h2>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi08.png" alt="welcome">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi08.png" alt="home">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi01.png" alt="menu">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi09.png" alt="categories">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi03.png" alt="wishlist">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi02.png" alt="productpage">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi04.png" alt="cart">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi06.png" alt="paymentoption">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/lowfi05.png" alt="checkout">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <h2>Grey Scale High-Fidelity Wireframes</h2>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/welcome.png" alt="welcome">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/home.png" alt="home">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/menu.png" alt="menu">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/categories.png" alt="categories">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/wishlist.png" alt="wishlist">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/productpage.png" alt="productpage">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/cart.png" alt="cart">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img
+                  src="img/skandisoft/paymentoption.png"
+                  alt="paymentoption"
+                >
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/checkout.png" alt="checkout">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <h2>Visual Design</h2>
+            <h3>Color Palette</h3>
+            <img src="img/skandisoft/colorpalette.png" alt="colorpalette">
+            <h3>Logo</h3>
+            <img src="img/skandisoft/logo.jpg" alt="logo">
+            <p>
+              SkandiSoft’s logo is integral to the brand and should therefore
+              only be used in the ways stated in this document.  The primary
+              Logo should be used in all instances unless stated otherwise. The
+              secondary logo is for use when vertical space is limited.  The
+              marque should only been use sparingly. As the brand is not yet
+              universally recognised the name SkandiSoft should accompany the
+              marque in some form.
+            </p>
+            <h3>Typography</h3>
+            <img src="img/skandisoft/typography.png" alt="typography">
+            <p>
+              Nordica Plus is a stylish and modern font that can help convey a
+              sense of sophistication and elegance, which are associated with
+              our brand. Its clean lines and sleek design make it easy to read
+              and visually appealing, which enhances the overall aesthetic of
+              the online shop. Additionally, Nordica Plus is versatile and can
+              be used for various purposes such as headlines, product
+              descriptions, and branding, making it a practical choice for a
+              fashion online shop.
+            </p>
+
+            <div class="photography">
+              <div class="col-md-6 col-lg-6">
+                <h3>Photography</h3>
+                <p>
+                  For our nordic cashmere clothing online store, the photography
+                  is characterized by clean, minimalist aesthetics that reflect
+                  the simplicity and elegance of the scandinavian design. The
+                  use of natural light, neutral backgrounds, and high-quality
+                  images helps to showcase the luxurious texture and softness of
+                  cashmere garments.
+                </p>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <img src="img/skandisoft/imagewoman.png" alt="imagewoman">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <h2>Final Lool and Mockups</h2>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/final01.png" alt="finalwelcome">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/final06.png" alt="finalhome">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/final05.png" alt="finalmenu">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/final03.png" alt="finalcategories">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/final02.png" alt="finalwishlist">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/final08.png" alt="finalproductpage">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/final04.png" alt="finalcart">
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img
+                  src="img/skandisoft/final09.png"
+                  alt="finalpaymentoption"
+                >
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <img src="img/skandisoft/final07.png" alt="finalcheckout">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <h2>Final Desktop Look</h2>
+            <img src="img/skandisoft/finaldesktop.png" alt="finaldesktop">
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="center">
+          <h2>Interested? Let's get in touch!</h2>
+
+          <div>
+            <p>
+              Contact me if you have any questions, input or inquiries. Either
+              call or send an Email.
+            </p>
+          </div>
+          <div>
+            <a href="mailto:kristinwedig1@gmail.com" class="button contact"
+              >Email me</a
+            >
+            <a href="tel:015227784150" class="button contact"
+              >+49152 27784150</a
+            >
+          </div>
+
+          <div>
+            <div>
+              <ul class="social">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/kristin-wedig/"
+                    class="social"
+                    target="_blank"
+                  >
+                    <svg
+                      width="200px"
+                      height="200px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+                        fill="#0F0F0F"
+                      />
+                      <path
+                        d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+                        fill="#0F0F0F"
+                      />
+                      <path
+                        d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+                        fill="#0F0F0F"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                        fill="#0F0F0F"
+                      />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.xing.com/profile/Kristin_Wedig2/web_profiles?expandNeffi=true"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="#000000"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="200px"
+                      height="200px"
+                      viewBox="0 0 512 512"
+                      xml:space="preserve"
+                    >
+                      <g id="7935ec95c421cee6d86eb22ecd135960">
+                        <path
+                          style="
+                            display: inline;
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                          "
+                          d="M309.215,304.749
                   c30.414,57.874,62.227,114.961,94.801,173.782c4.402,7.997,11.826,19.137,8.67,26.073c-4.242,9.332-25.275,5.539-41.855,5.539
                   c-19.523,0-36.902,3.53-49.764-0.799c-13.125-4.416-25.002-36.989-31.6-48.979c-27.934-50.773-57.736-105.254-85.319-154.831
                   c47.294-86.353,103.108-180.979,152.448-270.165c7.572-13.661,13.748-33.771,31.613-34.769C396.68,0.14,413.596,1.4,430.875,1.4
@@ -393,52 +482,69 @@
                   c-12.774-23.728-29.766-51.385-44.249-76.624c-6.25-10.891-10.979-25.087-25.263-25.275c-25.275,0-50.575,0-75.85,0
                   c-4.129,0.586-7.846,1.635-8.682,5.527c-2.046,12.438,5.625,19.486,9.48,26.073c8.97,15.407,17.978,29.866,27.646,46.608
                   c3.094,5.327,12.874,18.938,12.625,24.489c-0.15,3.718-7.598,12.638-10.254,17.378c-21.607,38.586-39.334,70.735-60.83,109.009
-                  c-3.194,5.689-10.267,12.301-7.896,20.534c1.023,3.605,6.749,6.637,9.469,6.325C74.853,357.67,100.403,357.67,125.953,357.67z">
-                      </path>
-                    </g>
-                  </svg>
-                </a>
-              </li>
+                  c-3.194,5.689-10.267,12.301-7.896,20.534c1.023,3.605,6.749,6.637,9.469,6.325C74.853,357.67,100.403,357.67,125.953,357.67z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
 
-              <li> <a href="https://www.behance.net/kristinwedig" target="_blank">
-                  <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px" viewBox="0 0 512 512"
-                    xml:space="preserve">
-                    <g>
-                      <path d="M472,0H40C17.9,0,0,17.9,0,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V40C512,17.9,494.1,0,472,0z M482,472
-                 c0,5.5-4.5,10-10,10H40c-5.5,0-10-4.5-10-10V40c0-5.5,4.5-10,10-10h432c5.5,0,10,4.5,10,10V472z" />
-                      <path
-                        d="M373.6,235.8c-5.3-7.9-12-13.7-20.2-17.3c-8.1-3.7-17.3-5.5-27.6-5.4c-17.1,0-31,5.4-41.8,16.2
+                <li>
+                  <a
+                    href="https://www.behance.net/kristinwedig"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="#000000"
+                      version="1.1"
+                      id="Layer_1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="200px"
+                      height="200px"
+                      viewBox="0 0 512 512"
+                      xml:space="preserve"
+                    >
+                      <g>
+                        <path
+                          d="M472,0H40C17.9,0,0,17.9,0,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V40C512,17.9,494.1,0,472,0z M482,472
+                 c0,5.5-4.5,10-10,10H40c-5.5,0-10-4.5-10-10V40c0-5.5,4.5-10,10-10h432c5.5,0,10,4.5,10,10V472z"
+                        />
+                        <path
+                          d="M373.6,235.8c-5.3-7.9-12-13.7-20.2-17.3c-8.1-3.7-17.3-5.5-27.6-5.4c-17.1,0-31,5.4-41.8,16.2
                  c-10.7,10.8-16.1,26.3-16.1,46.6c0,21.6,6,37.2,17.9,46.8c11.9,9.6,25.6,14.4,41.2,14.4c18.9,0,33.5-5.7,44-17.1
                  c6.7-7.2,10.5-14.3,11.3-21.2h-31.2c-1.8,3.5-3.9,6.2-6.3,8.1c-4.4,3.6-10.1,5.4-17,5.4c-6.6,0-12.2-1.5-16.9-4.4
                  c-7.7-4.7-11.7-13-12.2-24.7h85.2c0.2-10.1-0.2-17.8-1-23.2C381.5,250.8,378.4,242.7,373.6,235.8z M299.5,263
-                 c1.2-7.6,3.9-13.6,8.2-18.1c4.3-4.4,10.4-6.7,18.2-6.7c7.2,0,13.3,2.1,18.2,6.3c4.8,4.2,7.5,10.4,8.1,18.5H299.5z" />
-                      <rect x="291.6" y="182.3" width="67.8" height="19.7" />
-                      <path d="M233.3,248.3c5.3-2.7,9.4-5.7,12.1-9c4.9-5.9,7.3-13.7,7.3-23.3c0-9.4-2.4-17.5-7.2-24.2c-8.1-11-21.8-16.6-41-16.9H128
+                 c1.2-7.6,3.9-13.6,8.2-18.1c4.3-4.4,10.4-6.7,18.2-6.7c7.2,0,13.3,2.1,18.2,6.3c4.8,4.2,7.5,10.4,8.1,18.5H299.5z"
+                        />
+                        <rect x="291.6" y="182.3" width="67.8" height="19.7" />
+                        <path
+                          d="M233.3,248.3c5.3-2.7,9.4-5.7,12.1-9c4.9-5.9,7.3-13.7,7.3-23.3c0-9.4-2.4-17.5-7.2-24.2c-8.1-11-21.8-16.6-41-16.9H128
                  v158.3h71.2c8.1,0,15.5-0.7,22.4-2.1c6.9-1.5,12.9-4.1,17.9-8c4.5-3.3,8.2-7.5,11.2-12.4c4.8-7.4,7.1-15.8,7.1-25.2
                  c0-9.1-2.1-16.8-6.2-23.2C247.5,255.9,241.4,251.3,233.3,248.3z M159.5,202.4h34.4c7.6,0,13.8,0.9,18.7,2.5
                  c5.7,2.4,8.5,7.2,8.5,14.6c0,6.6-2.1,11.3-6.4,13.9c-4.3,2.6-9.8,3.9-16.7,3.9h-38.5V202.4z M214,302.8c-3.8,1.9-9.1,2.8-16,2.8
-                 h-38.5v-42.2h39c6.8,0.1,12,1,15.8,2.7c6.8,3.1,10.1,8.8,10.1,17C224.4,292.8,221,299.3,214,302.8z" />
-                    </g>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+                 h-38.5v-42.2h39c6.8,0.1,12,1,15.8,2.7c6.8,3.1,10.1,8.8,10.1,17C224.4,292.8,221,299.3,214,302.8z"
+                        />
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <p>Copyright Kristin Wedig 2024</p>
           </div>
         </div>
-
-        <div>
-          <p>Copyright Kristin Wedig 2024</p>
-        </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
