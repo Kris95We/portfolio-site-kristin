@@ -184,7 +184,7 @@ header .navtoggle {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 50.43px;
 }
 
 .row {
@@ -201,6 +201,10 @@ main {
 }
 
 /*header*/
+nav {
+  width: 100%;
+}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -212,6 +216,11 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 500;
   color: hsl(270, 67%, 42%);
+}
+
+nav > ul > li:not(:last-child) > a {
+padding: 10px 15px;
+display: block;
 }
 
 nav > ul > li > a:visited {
@@ -448,6 +457,10 @@ Medium devices (640px and larger)
     align-items: center;
   }
 
+nav {
+  width: auto;
+}
+
   nav > ul {
     list-style-type: none;
     padding: 0;
@@ -465,6 +478,7 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
+
 
   #work .projectcard {
     display: flex;
@@ -562,6 +576,10 @@ Medium devices (640px and larger)
   #about-page h3 {
     margin-top: 0;
   }
+
+  #hero h1 {
+    margin-top: 2em;
+  }
 }
 
 /* ==============================
@@ -579,7 +597,6 @@ Large devices (1024px or larger)
   }
 
   nav {
-    width: auto;
     float: right;
     margin-top: 4px;
   }
@@ -659,7 +676,6 @@ Large devices (1024px or larger)
   .col-lg-9 {
     width: 75%;
   }
-}
 
 #projects .photography {
   display: flex;
@@ -667,8 +683,14 @@ Large devices (1024px or larger)
   overflow: hidden;
 }
 
+#hero h1 {
+  margin-top: 2em;
+}
+}
+
 [class*="col-"] {
   padding: 10px 10px;
+  float: left;
 }
 
 @keyframes color-change {
